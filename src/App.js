@@ -87,9 +87,10 @@ function App() {
           <input
             type="text"
             className="grocery"
-            placeholder="e.g. eggs"
+            // placeholder="e.g. eggs"
             value={name}
             onChange={(event) => setName(event.target.value)}
+            autoFocus
           />
           <button type="submit" className="submit-btn">
             {isEditing ? "Save" : "Add"}
