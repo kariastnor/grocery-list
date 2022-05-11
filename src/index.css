@@ -209,7 +209,8 @@ margin-bottom: 0.5rem;
 }
 .grocery {
   padding: 0.25rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
+  margin-left: 1rem;
   background: var(--clr-grey-10);
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
@@ -228,6 +229,7 @@ margin-bottom: 0.5rem;
   flex: 0 0 5rem;
   display: grid;
   align-items: center;
+  margin-right: 1rem;
   padding: 0.25rem;
   /* text-transform: capitalize; */
   letter-spacing: 2px;
