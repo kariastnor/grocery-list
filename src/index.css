@@ -146,7 +146,7 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 35rem;
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 @media screen and (min-width: 992px) {
   .section-center {
